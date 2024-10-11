@@ -1,33 +1,20 @@
 .container {
-  height: 100%;
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 32px;
-  padding: 32px 0;
-}
+  margin: 0 auto;
+  border-radius: 10px;
 
-.middleSection {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 32px;
+  background-color: gainsboro;
+  padding: 32px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-
-.profile {
-  width: 250px;
+.h1 {
+  font-size: 34px;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
 }
-
-.statistics {
-  min-width: 270px;
-}
-
-.friendList {
-  width: 300px;
-}
-
-.transactions {
-  width: 500px;
+.h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
 }

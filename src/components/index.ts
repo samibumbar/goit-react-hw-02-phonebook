@@ -1,4 +1,4 @@
-export { default as FeedbackOptions } from "./feedbackOptions";
-export { default as Statistics } from "./statistic";
-export { default as Section } from "./section";
-export { default as Notification } from "./notification";
+export { default as ContactForm } from "./contact-form/form";
+export { default as Filter } from "./contact-filter/filter";
+export { default as ContactItem } from "./contact-item/item";
+export { default as ContactList } from "./contact-list/list";
