@@ -1,0 +1,33 @@
+.container {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px 0;
+}
+
+.middleSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.profile {
+  width: 250px;
+}
+
+.statistics {
+  min-width: 270px;
+}
+
+.friendList {
+  width: 300px;
+}
+
+.transactions {
+  width: 500px;
+}
